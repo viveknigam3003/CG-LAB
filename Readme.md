@@ -17,9 +17,9 @@ java <file_name>
 ```
 
 ## Index
-|Short Name| Description | Date
-|-|-|
-|[Print Character](#Assignment_1.java)| Design ‘Big N’ with character ‘N’, Vary the size of ‘Big N’ as per user input, like 10, 15, 20 e.t.c. | 02-06-2021|
+|Short Name| Description | Date |
+|----------|-------------|------|
+|[Print Character](Assignment_1.java)| Design ‘Big N’ with character ‘N’, Vary the size of ‘Big N’ as per user input, like 10, 15, 20 e.t.c. | 02-06-2021|
 
 ## Hosted version
 The repository is also hosted on Repl.it where you can run the code directly without cloning the repository.
