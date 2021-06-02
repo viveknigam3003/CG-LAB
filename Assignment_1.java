@@ -1,12 +1,16 @@
 import java.util.*;
 
 class Assignment_1 {
+
+	/**
+	 * Prints the character 'N' of given size, using the character 'N' itself
+	 * 
+	 * @param size - Size of the letter to be displayed. Min Size = 3
+	 */
 	static void printCharacter(int size) {
 		for (int i = 0; i < size; ++i) {
 			for (int j = 0; j < size; ++j) {
-				if (j == 0 || j == size - 1)
-					System.out.print('N');
-				else if (i == j)
+				if (j == 0 || j == size - 1 || i == j)
 					System.out.print('N');
 				else
 					System.out.print(' ');
