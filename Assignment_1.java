@@ -6,6 +6,7 @@ class Assignment_1 {
    * Prints the character 'N' of given size, using the character 'N' itself
    * 
    * @param size - Size of the letter to be displayed. Min Size = 3
+   * 
    */
   static void printCharacter(int size) {
     for (int i = 0; i < size; ++i) {

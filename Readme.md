@@ -20,6 +20,7 @@ java <file_name>
 |Short Name| Description | Date |
 |----------|-------------|------|
 |[Print Character](Assignment_1.java)| Design ‘Big N’ with character ‘N’, Vary the size of ‘Big N’ as per user input, like 10, 15, 20 e.t.c. | 02-06-2021|
+|[Reflection](Assignment_2.java)| Reflect the character 'N' along X and Y axis | 03-06-2021|
 
 ## Hosted version
 The repository is also hosted on Repl.it where you can run the code directly without cloning the repository.
