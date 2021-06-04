@@ -2,7 +2,8 @@ import java.util.*;
 
 class Assignment_2 {
   /**
-   * Prints the character 'N' of given size, using the character 'N' itself
+   * Returns a double dimension array (canvas) for the character 'N' of given
+   * size, using the character 'N' itself
    * 
    * @param size - Size of the letter to be displayed. Min Size = 3
    * 
@@ -69,7 +70,8 @@ class Assignment_2 {
     int size = canvas.length;
 
     int width = size;
-    int height = 2 * size + 1 + 2 * d;;
+    int height = 2 * size + 1 + 2 * d;
+    ;
 
     for (int i = 0; i < height; i++) {
       for (int j = 0; j < width; j++) {
@@ -118,10 +120,10 @@ class Assignment_2 {
     char[][] canvas = generateCanvas(size);
 
     System.out.println("Reflection along Y axis:");
-    reflectY(canvas, distance);
+    reflectY(generateCanvas(size), distance);
+    reflectX(generateCanvas(size), distance);
 
     System.out.println("Reflection along X axis:");
-    reflectX(canvas, distance);
 
     sc.close();
   }
